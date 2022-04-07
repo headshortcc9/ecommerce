@@ -1,0 +1,29 @@
+version: '3'
+services:
+  mariaDb:
+    image: mariadb:latest
+    container_name: mariaDb
+    ports:
+      - "33063:3306"
+    environment:
+      MYSQL_DATABASE: commerce_demo
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./config/mysql/my.cnf:/etc/mysql/my.cnf
+      - ./db/commerce_demo:/var/lib/mysql
+      - ./db/db-backups:/var/backups
+      - ./db/init:/docker-entrypoint-initdb.d
+
+  commerceDemo:
+    container_name: commerceDemo
+    ports:
+      - 8443:443
+    depends_on:
+      - mariaDb
+    image: haivokyanon/d9-php8:clamav
+    volumes:
+      - ../../commerce_demo:/var/www/html
+      - ./config/apache/000-default.conf:/etc/apache2/sites-available/000-default.conf
+      - ./config/apache/default-ssl.conf:/etc/apache2/sites-available/default-ssl.conf

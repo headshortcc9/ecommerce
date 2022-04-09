@@ -24,6 +24,6 @@ services:
       - mariaDb
     image: haivokyanon/d9-php8:clamav
     volumes:
-      - ../../commerce_demo:/var/www/html
+      - ../../demo-commerce:/var/www/html
       - ./config/apache/000-default.conf:/etc/apache2/sites-available/000-default.conf
       - ./config/apache/default-ssl.conf:/etc/apache2/sites-available/default-ssl.conf

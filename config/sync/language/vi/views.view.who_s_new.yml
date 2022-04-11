@@ -1,7 +1,6 @@
 display:
   default:
     display_title: 'Mặc định'
+  block_1:
     display_options:
-      fields:
-        operations:
-          label: 'Thao tác'
+      block_category: 'Người dùng'

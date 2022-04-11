@@ -1,0 +1,18 @@
+uuid: 4a28b711-e8cd-4066-97e5-41bdaf522a87
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Demo Bill'
+type: demo_bill
+description: 'Demo Bill for quick checkout'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

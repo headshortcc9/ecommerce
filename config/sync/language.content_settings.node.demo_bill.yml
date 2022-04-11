@@ -1,0 +1,11 @@
+uuid: d9f46242-f149-41dd-afeb-0788211c88fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.demo_bill
+id: node.demo_bill
+target_entity_type_id: node
+target_bundle: demo_bill
+default_langcode: vi
+language_alterable: false

@@ -1,6 +1,20 @@
 display:
   default:
+    display_title: 'Mặc định'
     display_options:
       fields:
+        name:
+          label: 'Tên người dùng'
+        status:
+          label: 'Trạng thái'
+        roles_target_id:
+          label: 'Vai trò'
         operations:
           label: 'Thao tác'
+      exposed_form:
+        options:
+          submit_button: Lọc
+      filters:
+        status:
+          group_info:
+            label: 'Trạng thái'

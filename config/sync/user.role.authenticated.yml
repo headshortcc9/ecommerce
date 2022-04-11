@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - node.type.demo_bill
   module:
     - comment
     - commerce_checkout
@@ -12,6 +13,7 @@ dependencies:
     - commerce_product
     - contact
     - filter
+    - node
     - shortcut
     - system
 _core:
@@ -26,9 +28,13 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'create demo_bill content'
+  - 'delete own demo_bill content'
+  - 'edit own demo_bill content'
   - 'manage own commerce_payment_method'
   - 'post comments'
   - 'skip comment approval'
   - 'use text format basic_html'
   - 'view commerce_product'
+  - 'view demo_bill revisions'
   - 'view own commerce_order'

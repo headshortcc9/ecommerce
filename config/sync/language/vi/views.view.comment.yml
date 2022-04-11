@@ -1,11 +1,43 @@
+label: 'Bình luận'
 display:
   default:
+    display_title: 'Mặc định'
     display_options:
+      title: 'Bình luận'
       fields:
+        comment_bulk_form:
+          action_title: 'Thao tác'
+        subject:
+          label: 'Tiêu đề'
         operations:
           label: 'Thao tác'
+      exposed_form:
+        options:
+          submit_button: Lọc
+      filters:
+        subject:
+          expose:
+            label: 'Tiêu đề'
+        langcode:
+          expose:
+            label: 'Ngôn ngữ'
+  page_published:
+    display_options:
+      menu:
+        title: 'Bình luận'
   page_unapproved:
     display_options:
       fields:
+        comment_bulk_form:
+          action_title: 'Thao tác'
+        subject:
+          label: 'Tiêu đề'
         operations:
           label: 'Thao tác'
+      filters:
+        subject:
+          expose:
+            label: 'Tiêu đề'
+        langcode:
+          expose:
+            label: 'Ngôn ngữ'

@@ -4,12 +4,14 @@ status: true
 dependencies:
   config:
     - filter.format.restricted_html
+    - node.type.demo_bill
   module:
     - comment
     - commerce_checkout
     - commerce_product
     - contact
     - filter
+    - node
     - system
 _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
@@ -22,5 +24,6 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'create demo_bill content'
   - 'use text format restricted_html'
   - 'view commerce_product'

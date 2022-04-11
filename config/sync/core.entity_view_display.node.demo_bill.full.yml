@@ -1,0 +1,31 @@
+uuid: 4cbf97d9-e0cd-4993-8880-5839a7fb7beb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.demo_bill.body
+    - node.type.demo_bill
+  module:
+    - text
+    - user
+id: node.demo_bill.full
+targetEntityType: node
+bundle: demo_bill
+mode: full
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

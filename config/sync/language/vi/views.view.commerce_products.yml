@@ -1,6 +1,11 @@
 display:
   default:
     display_options:
+      exposed_form:
+        options:
+          submit_button: Lọc
       fields:
+        status:
+          label: 'Trạng thái'
         operations:
           label: 'Thao tác'

@@ -3,22 +3,14 @@ display:
     display_title: 'Mặc định'
     display_options:
       fields:
-        type:
-          label: 'Kiểu nội dung'
+        filename:
+          label: Tên
         status:
           label: 'Trạng thái'
-        operations:
-          label: 'Thao tác'
       exposed_form:
         options:
           submit_button: Lọc
       filters:
-        type:
-          expose:
-            label: 'Kiểu nội dung'
         status:
           expose:
             label: 'Trạng thái'
-        langcode:
-          expose:
-            label: 'Ngôn ngữ'

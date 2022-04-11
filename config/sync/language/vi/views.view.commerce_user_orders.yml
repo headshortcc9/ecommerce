@@ -1,0 +1,8 @@
+display:
+  default:
+    display_options:
+      fields:
+        order_id:
+          label: Mã
+        state:
+          label: Bang

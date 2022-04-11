@@ -1,5 +1,5 @@
 uuid: 1705e7d5-fbb5-4107-9599-ad05a96f1769
-langcode: en
+langcode: vi
 status: true
 dependencies:
   module:
@@ -13,6 +13,9 @@ field_name: field_image
 entity_type: node
 type: image
 settings:
+  target_type: file
+  display_field: false
+  display_default: false
   uri_scheme: public
   default_image:
     uuid: null
@@ -20,9 +23,6 @@ settings:
     title: ''
     width: null
     height: null
-  target_type: file
-  display_field: false
-  display_default: false
 module: image
 locked: false
 cardinality: 1

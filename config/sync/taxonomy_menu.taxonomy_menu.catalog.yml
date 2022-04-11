@@ -1,5 +1,5 @@
 uuid: 73110dbf-061a-4161-b07f-e257addf7058
-langcode: en
+langcode: vi
 status: true
 dependencies:
   config:
@@ -10,9 +10,9 @@ _core:
 id: catalog
 label: Catalog
 vocabulary: product_categories
-depth: 0
 menu: catalog
 expanded: false
+depth: 0
 menu_parent: 'admin:'
 description_field_name: null
 use_term_weight_order: null

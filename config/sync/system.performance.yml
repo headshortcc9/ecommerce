@@ -1,5 +1,6 @@
 _core:
   default_config_hash: b2cssrj-lOmATIbdehfCqfCFgVR0qCdxxWhwqa2KBVQ
+langcode: vi
 cache:
   page:
     max_age: 0

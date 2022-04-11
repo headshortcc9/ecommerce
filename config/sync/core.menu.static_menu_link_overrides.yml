@@ -1,5 +1,6 @@
 _core:
   default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
+langcode: vi
 definitions:
   contact__site_page:
     menu_name: footer
@@ -8,62 +9,98 @@ definitions:
     expanded: false
     enabled: true
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__35':
-    menu_name: catalog
-    parent: ''
-    weight: 8
     expanded: false
+    parent: 'admin:'
+    weight: 8
+    menu_name: catalog
     enabled: false
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__32':
-    menu_name: catalog
-    parent: ''
-    weight: 12
     expanded: false
+    parent: 'admin:'
+    weight: 12
+    menu_name: catalog
     enabled: false
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__30':
-    menu_name: catalog
-    parent: ''
-    weight: 18
     expanded: false
+    parent: 'admin:'
+    weight: 18
+    menu_name: catalog
     enabled: false
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__34':
-    menu_name: catalog
-    parent: ''
-    weight: 20
     expanded: false
+    parent: 'admin:'
+    weight: 20
+    menu_name: catalog
     enabled: false
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__31':
-    menu_name: catalog
-    parent: ''
-    weight: 23
     expanded: false
+    parent: 'admin:'
+    weight: 23
+    menu_name: catalog
     enabled: false
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__33':
-    menu_name: catalog
-    parent: ''
-    weight: 26
     expanded: false
+    parent: 'admin:'
+    weight: 26
+    menu_name: catalog
     enabled: false
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__65':
-    enabled: false
-    menu_name: catalog
-    parent: ''
     expanded: false
+    parent: 'admin:'
     weight: 0
+    menu_name: catalog
+    enabled: false
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__64':
-    enabled: false
-    menu_name: catalog
-    parent: ''
-    weight: 0
     expanded: false
+    parent: 'admin:'
+    weight: 0
+    menu_name: catalog
+    enabled: false
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__63':
-    enabled: false
-    menu_name: catalog
-    parent: ''
-    weight: 0
     expanded: false
+    parent: 'admin:'
+    weight: 0
+    menu_name: catalog
+    enabled: false
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__62':
-    enabled: false
-    menu_name: catalog
-    parent: ''
-    weight: 0
     expanded: false
+    parent: 'admin:'
+    weight: 0
+    menu_name: catalog
+    enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__69':
+    expanded: false
+    parent: 'admin:'
+    weight: 0
+    menu_name: catalog
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__68':
+    expanded: false
+    parent: 'admin:'
+    weight: 0
+    menu_name: catalog
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__66':
+    expanded: false
+    parent: 'admin:'
+    weight: 0
+    menu_name: catalog
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__55':
+    expanded: false
+    parent: 'admin:'
+    weight: 0
+    menu_name: catalog
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__58':
+    expanded: false
+    parent: 'admin:'
+    weight: 0
+    menu_name: catalog
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__61':
+    expanded: false
+    parent: 'admin:'
+    weight: 0
+    menu_name: catalog
+    enabled: true

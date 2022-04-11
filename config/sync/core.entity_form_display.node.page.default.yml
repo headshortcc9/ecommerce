@@ -1,5 +1,5 @@
 uuid: 01c8298a-fe49-407c-a289-7cc6da87ce03
-langcode: en
+langcode: vi
 status: true
 dependencies:
   config:
@@ -71,6 +71,11 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete

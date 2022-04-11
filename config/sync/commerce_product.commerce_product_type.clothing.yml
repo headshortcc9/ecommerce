@@ -1,14 +1,15 @@
 uuid: a195650f-feee-4bec-b970-01f8d069210b
-langcode: en
+langcode: vi
 status: true
 dependencies: {  }
 _core:
   default_config_hash: YhOM0jcATwJkv-haxTHjYz_S2grlzmTfC64NUyMhhNI
 id: clothing
 label: Clothing
-description: ''
-variationType: clothing
-multipleVariations: true
-injectVariationFields: true
 traits: {  }
 locked: false
+description: ''
+variationType: clothing
+variationTypes: {  }
+multipleVariations: true
+injectVariationFields: true

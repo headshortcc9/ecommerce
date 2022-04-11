@@ -1,5 +1,6 @@
 _core:
   default_config_hash: VMWxVURttskghCbo5AuwZeaD2NJquuMGrOMJqG1YZhE
+langcode: vi
 content_type: text/html
 text_format: ''
 generate_plain: true

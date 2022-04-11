@@ -1,5 +1,5 @@
 uuid: c26361a4-99de-47d8-84b8-9165f9dc2a47
-langcode: en
+langcode: vi
 status: true
 dependencies:
   module:
@@ -9,9 +9,9 @@ third_party_settings:
     taxable_type: physical_goods
 _core:
   default_config_hash: 1qrva2PEkPAmYhv6x4SkZXb_RNSeEtSnssXJHuqPWgQ
-label: Return
 id: return
-purchasableEntityType: commerce_product_variation
-orderType: default
+label: Return
 traits: {  }
 locked: false
+purchasableEntityType: commerce_product_variation
+orderType: default

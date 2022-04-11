@@ -1,12 +1,12 @@
 uuid: df6b5b39-322c-4bfe-b0a8-b5c3df0cb592
-langcode: en
+langcode: vi
 status: true
 dependencies: {  }
 _core:
   default_config_hash: 3vA4FKQ1Qu8B1R8UdGPnmMfJrYO6Y6uMqeNgDgXxods
 id: default
 label: Default
-orderItemType: default
-generateTitle: true
 traits: {  }
 locked: false
+orderItemType: default
+generateTitle: true

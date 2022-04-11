@@ -1,0 +1,7 @@
+eton_import_data.batch_import_product_single_variant_form:
+  path: '/admin/import-product-single-variant/form/batch'
+  defaults:
+    _form: '\Drupal\eton_import_data\Form\BatchImportProductSingleVariantForm'
+    _title: 'Batch Import Product Single Variant'
+  requirements:
+    _permission: 'import product single variant'

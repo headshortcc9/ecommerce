@@ -1,5 +1,6 @@
 _core:
   default_config_hash: b2zIRm9Jv3SB60NYdZkZHxH8-KdEa-Xa48-4NsIi4lg
+langcode: vi
 default_cron_limit: 50
 cron_worker_runtime: 15
 default_tracker: default

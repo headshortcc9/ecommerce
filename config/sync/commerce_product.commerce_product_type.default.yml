@@ -1,14 +1,15 @@
 uuid: 22da4be7-41c2-4a6b-816a-8c6c03d50159
-langcode: en
+langcode: vi
 status: true
 dependencies: {  }
 _core:
   default_config_hash: igdv1CXBTq9vh-ONhQ2SFkVhr3bdfRC6nP1Uubdx-L0
 id: default
 label: Default
-description: ''
-variationType: default
-multipleVariations: true
-injectVariationFields: true
 traits: {  }
 locked: false
+description: ''
+variationType: default
+variationTypes: {  }
+multipleVariations: true
+injectVariationFields: true

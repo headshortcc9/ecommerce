@@ -1,5 +1,5 @@
 uuid: 5d8ca575-ccbd-441b-a867-0f5bfd877d6e
-langcode: en
+langcode: vi
 status: true
 dependencies:
   module:
@@ -22,6 +22,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/product/*\r\n/products*"
     negate: true
     context_mapping: {  }
+    pages: "/product/*\r\n/products*"

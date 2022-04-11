@@ -1,5 +1,5 @@
 uuid: e767b0da-e509-4a89-9fdc-31cf4a70a404
-langcode: en
+langcode: vi
 status: true
 dependencies:
   config:
@@ -16,39 +16,39 @@ bundle: default
 mode: commerce_pos_product_select
 content:
   list_price:
-    label: above
     type: commerce_price_default
+    label: above
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
     weight: -1
     region: content
+  price:
+    type: commerce_price_default
+    label: inline
     settings:
       strip_trailing_zeroes: false
       currency_display: symbol
     third_party_settings: {  }
-  price:
-    label: inline
-    type: commerce_price_default
     weight: 1
     region: content
-    settings:
-      strip_trailing_zeroes: false
-      currency_display: symbol
-    third_party_settings: {  }
   sku:
     type: string
-    weight: 2
-    region: content
     label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 2
+    region: content
   title:
     type: string
-    weight: 0
-    region: content
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   field_upc: true
   langcode: true

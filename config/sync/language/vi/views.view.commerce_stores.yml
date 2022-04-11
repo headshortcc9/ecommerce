@@ -1,8 +1,0 @@
-display:
-  default:
-    display_options:
-      fields:
-        name:
-          label: Tên
-        operations:
-          label: 'Thao tác'

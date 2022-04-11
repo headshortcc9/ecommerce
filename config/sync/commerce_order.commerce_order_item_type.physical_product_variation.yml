@@ -1,5 +1,5 @@
 uuid: 45290bd4-eefb-4271-9d27-047c5b203d28
-langcode: en
+langcode: vi
 status: true
 dependencies:
   module:
@@ -9,9 +9,9 @@ third_party_settings:
     taxable_type: physical_goods
 _core:
   default_config_hash: _E0qD7fBNdAAmaAaRhE7B9r-VQiFGj2_0xUfNu2JgcI
-label: 'Physical (Product variation)'
 id: physical_product_variation
-purchasableEntityType: commerce_product_variation
-orderType: physical
+label: 'Physical (Product variation)'
 traits: {  }
 locked: false
+purchasableEntityType: commerce_product_variation
+orderType: physical

@@ -1,7 +1,14 @@
 uuid: 0c8b1bb3-e201-4067-9763-00b4ab78669d
-langcode: en
+langcode: vi
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 _core:
   default_config_hash: zhtPXoRcC6REiepM0k16zw__FDW5YOXDR6U2WlldTrs
 name: 'Basic page'

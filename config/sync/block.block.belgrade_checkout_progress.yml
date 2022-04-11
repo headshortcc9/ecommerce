@@ -1,5 +1,5 @@
 uuid: 8a296045-13cf-4745-8de1-335c088f2041
-langcode: en
+langcode: vi
 status: true
 dependencies:
   module:
@@ -23,6 +23,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '/checkout/*'
     negate: false
     context_mapping: {  }
+    pages: '/checkout/*'

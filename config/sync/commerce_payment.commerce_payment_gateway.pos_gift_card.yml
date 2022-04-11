@@ -1,5 +1,5 @@
 uuid: 815f94d3-77e2-40c4-8f82-865066b840ce
-langcode: en
+langcode: vi
 status: true
 dependencies:
   enforced:
@@ -12,14 +12,14 @@ label: 'Gift card'
 weight: null
 plugin: manual
 configuration:
-  instructions:
-    value: ''
-    format: plain_text
   display_label: 'Gift card'
   mode: n/a
   payment_method_types:
     - credit_card
   collect_billing_information: true
+  instructions:
+    value: ''
+    format: plain_text
 conditions:
   -
     plugin: order_type

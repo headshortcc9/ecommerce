@@ -1,0 +1,10 @@
+uuid: 2c8845e3-95f2-46e7-9f76-99716d950814
+langcode: vi
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YWMv3Do9fsPFhylyFkOwcqcFP4jSU6DLRootOlgrC0M
+id: refresh_token
+label: 'Refresh token'
+description: 'The refresh token type.'
+locked: true

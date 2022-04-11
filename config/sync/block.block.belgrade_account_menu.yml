@@ -1,5 +1,5 @@
 uuid: c38351ef-6768-41d1-849a-b7bba1778a74
-langcode: en
+langcode: vi
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ _core:
 id: belgrade_account_menu
 theme: belgrade
 region: top_navigation
-weight: -6
+weight: -10
 provider: null
 plugin: 'system_menu_block:account'
 settings:

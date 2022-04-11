@@ -1,5 +1,5 @@
 uuid: 33e7c6a6-a52f-40b9-90e3-67c9e9e5d2ac
-langcode: en
+langcode: vi
 status: true
 dependencies:
   module:
@@ -13,7 +13,7 @@ backend: search_api_db
 backend_config:
   database: 'default:default'
   min_chars: 1
+  matching: partial
   autocomplete:
     suggest_suffix: true
     suggest_words: true
-  matching: partial

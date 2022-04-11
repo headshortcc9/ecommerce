@@ -1,5 +1,6 @@
 _core:
   default_config_hash: uEePITI9tV6WqzmsTb7MfPCi5yPWXSxAN1xeLcYFQbM
+langcode: vi
 session:
   parameter: language
 url:
@@ -7,6 +8,7 @@ url:
   prefixes:
     en: en
     vi: vi
+    '': null
   domains:
     en: ''
     vi: ''

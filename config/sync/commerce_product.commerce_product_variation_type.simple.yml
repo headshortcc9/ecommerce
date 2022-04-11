@@ -1,13 +1,13 @@
 uuid: cb33213b-628c-4305-a1bd-e166043decce
-langcode: en
+langcode: vi
 status: true
 dependencies: {  }
 _core:
   default_config_hash: J_Vdud7syQ5fjwKZjL-iTU0D0RaMrTbUhWI2GGhNGiA
 id: simple
 label: Simple
-orderItemType: physical_product_variation
-generateTitle: true
 traits:
   - purchasable_entity_shippable
 locked: false
+orderItemType: physical_product_variation
+generateTitle: true

@@ -1,7 +1,0 @@
-display:
-  default:
-    display_title: 'Mặc định'
-    display_options:
-      fields:
-        operations:
-          label: 'Thao tác'

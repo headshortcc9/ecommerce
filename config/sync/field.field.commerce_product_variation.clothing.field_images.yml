@@ -1,5 +1,5 @@
 uuid: 7def06b2-341a-4822-84fb-a701c4bb3e68
-langcode: en
+langcode: vi
 status: true
 dependencies:
   config:
@@ -20,6 +20,8 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
+  handler: 'default:file'
+  handler_settings: {  }
   file_directory: product-images
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
@@ -35,6 +37,4 @@ settings:
     title: ''
     width: null
     height: null
-  handler: 'default:file'
-  handler_settings: {  }
 field_type: image

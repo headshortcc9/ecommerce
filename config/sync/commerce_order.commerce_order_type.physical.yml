@@ -1,5 +1,5 @@
 uuid: 2c2b44a0-6892-49f5-be1f-77512e4c10b2
-langcode: en
+langcode: vi
 status: true
 dependencies:
   module:
@@ -8,21 +8,21 @@ dependencies:
     - commerce_shipping
 third_party_settings:
   commerce_cart:
-    cart_form_view: commerce_cart_form
     cart_block_view: commerce_cart_block
+    cart_form_view: commerce_cart_form
   commerce_checkout:
     checkout_flow: shipping
   commerce_shipping:
     shipment_type: default
 _core:
   default_config_hash: Y4U87c7mXo7M-eodPbhjZoarDviMWHvdGgLYDetJhpA
-label: Physical
 id: physical
+label: Physical
+traits: {  }
+locked: false
 workflow: order_fulfillment
 numberPattern: null
 refresh_mode: customer
 refresh_frequency: 300
 sendReceipt: true
 receiptBcc: ''
-traits: {  }
-locked: false

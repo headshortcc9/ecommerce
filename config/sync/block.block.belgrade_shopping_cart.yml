@@ -1,5 +1,5 @@
 uuid: 778618a7-52f1-4b57-a037-3837b0e6aa81
-langcode: en
+langcode: vi
 status: true
 dependencies:
   module:
@@ -9,7 +9,7 @@ dependencies:
 id: belgrade_shopping_cart
 theme: belgrade
 region: top_navigation
-weight: -5
+weight: -8
 provider: null
 plugin: commerce_cart
 settings:

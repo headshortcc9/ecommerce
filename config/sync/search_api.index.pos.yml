@@ -1,5 +1,5 @@
 uuid: 2fb52064-2b76-422c-a8e6-ee94d05e45fe
-langcode: en
+langcode: vi
 status: true
 dependencies:
   config:
@@ -80,6 +80,9 @@ processor_settings:
   add_url: {  }
   aggregated_field: {  }
   html_filter:
+    weights:
+      preprocess_index: -50
+      preprocess_query: -50
     all_fields: true
     fields:
       - body
@@ -97,10 +100,10 @@ processor_settings:
       h3: 2
       strong: 2
       u: 1
-    weights:
-      preprocess_index: -50
-      preprocess_query: -50
   ignorecase:
+    weights:
+      preprocess_index: -49
+      preprocess_query: -49
     all_fields: true
     fields:
       - body
@@ -108,12 +111,12 @@ processor_settings:
       - sku
       - title
       - title_1
-    weights:
-      preprocess_index: -49
-      preprocess_query: -49
   language_with_fallback: {  }
   rendered_item: {  }
   stemmer:
+    weights:
+      preprocess_index: -46
+      preprocess_query: -44
     all_fields: true
     fields:
       - body
@@ -124,10 +127,10 @@ processor_settings:
     exceptions:
       mexican: mexic
       texan: texa
-    weights:
-      preprocess_index: -46
-      preprocess_query: -44
   tokenizer:
+    weights:
+      preprocess_index: -47
+      preprocess_query: -46
     all_fields: true
     fields:
       - body
@@ -139,10 +142,10 @@ processor_settings:
     ignored: ._-
     overlap_cjk: 1
     minimum_word_size: '1'
-    weights:
-      preprocess_index: -47
-      preprocess_query: -46
   transliteration:
+    weights:
+      preprocess_index: -48
+      preprocess_query: -48
     all_fields: true
     fields:
       - body
@@ -150,14 +153,11 @@ processor_settings:
       - sku
       - title
       - title_1
-    weights:
-      preprocess_index: -48
-      preprocess_query: -48
 tracker_settings:
   default:
     indexing_order: fifo
 options:
-  index_directly: true
   cron_limit: 50
+  index_directly: true
   track_changes_in_references: true
 server: pos

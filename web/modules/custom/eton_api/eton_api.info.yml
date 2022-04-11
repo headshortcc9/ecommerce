@@ -1,0 +1,5 @@
+name: Eton api
+type: module
+description: Provide Api for eton.
+core_version_requirement: ^8.8 || ^9
+package: Eton

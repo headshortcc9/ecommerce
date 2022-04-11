@@ -1,5 +1,5 @@
 uuid: ba596a29-e3ba-497e-87c1-81ca9b9345ad
-langcode: en
+langcode: vi
 status: true
 dependencies: {  }
 _core:
@@ -9,13 +9,13 @@ label: 'Cash on delivery'
 weight: null
 plugin: manual
 configuration:
-  instructions:
-    value: 'You will pay when receiving package. '
-    format: plain_text
   display_label: 'Cash on delivery'
   mode: n/a
   payment_method_types:
     - credit_card
   collect_billing_information: true
+  instructions:
+    value: 'You will pay when receiving package. '
+    format: plain_text
 conditions: {  }
 conditionOperator: AND

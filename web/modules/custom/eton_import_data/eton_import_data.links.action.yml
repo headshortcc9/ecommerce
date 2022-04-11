@@ -1,0 +1,5 @@
+eton_import_data.batch_import_product_single_variant_form:
+  route_name: eton_import_data.batch_import_product_single_variant_form
+  title: 'Import product'
+  appears_on:
+    - entity.commerce_product.collection

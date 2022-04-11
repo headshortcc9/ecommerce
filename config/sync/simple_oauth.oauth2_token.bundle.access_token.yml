@@ -1,0 +1,10 @@
+uuid: dd640f5c-d045-40fe-a686-4b263d20c7bf
+langcode: vi
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: z9ULI9nj9yt73YKI3ZE8v9yXhkVfvQsDJToEDzijcxY
+id: access_token
+label: 'Access Token'
+description: 'The access token type.'
+locked: true

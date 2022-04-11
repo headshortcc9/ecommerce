@@ -1,5 +1,5 @@
 uuid: 07f11dd1-5914-4abf-b2c6-01519bbc36cf
-langcode: en
+langcode: vi
 status: true
 dependencies:
   enforced:
@@ -12,14 +12,14 @@ label: Debit
 weight: null
 plugin: manual
 configuration:
-  instructions:
-    value: ''
-    format: plain_text
   display_label: Debit
   mode: n/a
   payment_method_types:
     - credit_card
   collect_billing_information: true
+  instructions:
+    value: ''
+    format: plain_text
 conditions:
   -
     plugin: order_type

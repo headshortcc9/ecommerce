@@ -1,7 +1,0 @@
-display:
-  default:
-    display_options:
-      sorts:
-        title_1:
-          expose:
-            label: 'Tiêu đề'

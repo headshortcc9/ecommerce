@@ -1,0 +1,10 @@
+uuid: d8ac8e69-b52a-4714-8648-aecbe1734884
+langcode: vi
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zYKaSl4QZrKMFj7aIhSGDRcBy4SoNjvY2EZlT7amrBk
+id: auth_code
+label: 'Auth code'
+description: 'The auth code type.'
+locked: true

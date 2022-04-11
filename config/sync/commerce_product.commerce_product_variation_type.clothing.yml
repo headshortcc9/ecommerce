@@ -1,0 +1,13 @@
+uuid: 3ed2d457-a6da-458d-8344-cff91b78b49a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 96sjmhxabWbcz4Z6KJ6lifAhzEksHFt53Wf_Trr2gME
+id: clothing
+label: Clothing
+orderItemType: physical_product_variation
+generateTitle: true
+traits:
+  - purchasable_entity_shippable
+locked: false

@@ -1,0 +1,31 @@
+uuid: 92137b47-f435-455a-a2b0-733758e0f573
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.clothing
+    - field.storage.commerce_product.field_product_categories
+    - taxonomy.vocabulary.product_categories
+_core:
+  default_config_hash: '-cfPEbE8358LQiaiwrKtTx8R4O5vMPxQprNPTwNqjKU'
+id: commerce_product.clothing.field_product_categories
+field_name: field_product_categories
+entity_type: commerce_product
+bundle: clothing
+label: Categories
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      product_categories: product_categories
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,28 @@
+uuid: d38723e7-c61f-4dc7-8cc8-21899df15654
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.product_categories
+  module:
+    - facets
+    - system
+  theme:
+    - commerce_bootstrap
+id: commerce_bootstrap_facets_categories
+theme: commerce_bootstrap
+region: sidebar_first
+weight: 1
+provider: null
+plugin: 'facet_block:product_categories'
+settings:
+  id: 'facet_block:product_categories'
+  label: Categories
+  label_display: visible
+  provider: facets
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/products\r\n/products/*"

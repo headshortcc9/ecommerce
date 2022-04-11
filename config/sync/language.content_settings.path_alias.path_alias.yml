@@ -1,0 +1,13 @@
+uuid: 30a85803-3a83-4590-8fa3-aaf603d6dd6a
+langcode: en
+status: true
+dependencies:
+  module:
+    - path_alias
+_core:
+  default_config_hash: dhjFABRzm52DkRXnYja5ZoHwjY0R3gEGic3KpDUXgRo
+id: path_alias.path_alias
+target_entity_type_id: path_alias
+target_bundle: path_alias
+default_langcode: vi
+language_alterable: true

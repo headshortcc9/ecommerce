@@ -1,0 +1,10 @@
+uuid: 743ce9e8-c80b-4580-bcb2-62e805b5a95f
+langcode: en
+status: true
+dependencies: {  }
+id: demoprodtype
+label: DemoProdType
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: null

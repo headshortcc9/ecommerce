@@ -1,0 +1,25 @@
+uuid: e92483dc-1576-410a-b647-aeea1eb8943a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - commerce_bootstrap
+_core:
+  default_config_hash: ZuTeLM6v6-OKUtrY__rhDL0JEJvahVG2Zdgqbg20E3I
+id: commerce_bootstrap_branding
+theme: commerce_bootstrap
+region: header
+weight: -9
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

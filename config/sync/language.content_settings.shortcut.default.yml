@@ -1,0 +1,11 @@
+uuid: 6d8e0a3a-5bcd-422d-9902-fe356f76b31a
+langcode: vi
+status: true
+dependencies:
+  config:
+    - shortcut.set.default
+id: shortcut.default
+target_entity_type_id: shortcut
+target_bundle: default
+default_langcode: site_default
+language_alterable: false

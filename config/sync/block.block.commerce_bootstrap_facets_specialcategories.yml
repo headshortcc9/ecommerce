@@ -1,0 +1,28 @@
+uuid: 31936ceb-e687-49ea-b2b7-aa506b78aae3
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.special_categories
+  module:
+    - facets
+    - system
+  theme:
+    - commerce_bootstrap
+id: commerce_bootstrap_facets_specialcategories
+theme: commerce_bootstrap
+region: sidebar_first
+weight: 2
+provider: null
+plugin: 'facet_block:special_categories'
+settings:
+  id: 'facet_block:special_categories'
+  label: 'Special categories'
+  label_display: visible
+  provider: facets
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/products\r\n/products/*"

@@ -1,0 +1,18 @@
+uuid: 73110dbf-061a-4161-b07f-e257addf7058
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.catalog
+    - taxonomy.vocabulary.product_categories
+_core:
+  default_config_hash: F2RDQ4t3vAN0L_1elHHzxs5bJX56LpDruTesMyBOgmg
+id: catalog
+label: Catalog
+vocabulary: product_categories
+depth: 0
+menu: catalog
+expanded: false
+menu_parent: 'admin:'
+description_field_name: null
+use_term_weight_order: null

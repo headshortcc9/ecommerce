@@ -1,0 +1,11 @@
+uuid: 2ec1a5ba-94e6-47ef-a703-6f7b4dc6606f
+langcode: vi
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.default
+id: commerce_product_variation.default
+target_entity_type_id: commerce_product_variation
+target_bundle: default
+default_langcode: site_default
+language_alterable: false

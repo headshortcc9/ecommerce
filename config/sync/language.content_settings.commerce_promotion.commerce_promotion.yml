@@ -1,0 +1,11 @@
+uuid: 469e8e46-f122-4058-99f6-38e58d2cb88c
+langcode: vi
+status: true
+dependencies:
+  module:
+    - commerce_promotion
+id: commerce_promotion.commerce_promotion
+target_entity_type_id: commerce_promotion
+target_bundle: commerce_promotion
+default_langcode: site_default
+language_alterable: false

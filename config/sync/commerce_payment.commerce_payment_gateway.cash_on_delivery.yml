@@ -1,0 +1,21 @@
+uuid: ba596a29-e3ba-497e-87c1-81ca9b9345ad
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: GSl6UVqPYA2on9jQJpHPyNA7yKnLRfoC3fZRyjytCtA
+id: cash_on_delivery
+label: 'Cash on delivery'
+weight: null
+plugin: manual
+configuration:
+  instructions:
+    value: 'You will pay when receiving package. '
+    format: plain_text
+  display_label: 'Cash on delivery'
+  mode: n/a
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+conditions: {  }
+conditionOperator: AND

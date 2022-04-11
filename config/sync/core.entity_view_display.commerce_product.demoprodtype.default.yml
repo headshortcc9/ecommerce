@@ -1,0 +1,91 @@
+uuid: f60cd49d-4fdd-4e56-ad58-6305d03edcb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.demoprodtype
+    - field.field.commerce_product.demoprodtype.body
+    - field.field.commerce_product.demoprodtype.field_barcode
+    - field.field.commerce_product.demoprodtype.field_brand
+    - field.field.commerce_product.demoprodtype.field_product_categories
+    - field.field.commerce_product.demoprodtype.field_sale_price
+    - field.field.commerce_product.demoprodtype.field_special_categories
+  module:
+    - commerce_price
+    - commerce_product
+    - text
+id: commerce_product.demoprodtype.default
+targetEntityType: commerce_product
+bundle: demoprodtype
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_barcode:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_brand:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_product_categories:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_sale_price:
+    type: commerce_price_default
+    label: above
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_special_categories:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: above
+    settings:
+      combine: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  created: true
+  langcode: true
+  search_api_excerpt: true
+  stores: true
+  uid: true

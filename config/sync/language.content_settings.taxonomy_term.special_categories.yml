@@ -1,0 +1,11 @@
+uuid: 8b7e67ad-9976-4142-97ab-a5a257f2f13b
+langcode: vi
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.special_categories
+id: taxonomy_term.special_categories
+target_entity_type_id: taxonomy_term
+target_bundle: special_categories
+default_langcode: site_default
+language_alterable: false

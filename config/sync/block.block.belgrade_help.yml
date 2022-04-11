@@ -1,0 +1,22 @@
+uuid: bb1dabe0-ec2b-46c4-a985-5204eceb7780
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - belgrade
+_core:
+  default_config_hash: gKtOcSQTQki2pujw1HB5crJu7WlQmuPbl9cMqPDeWtA
+id: belgrade_help
+theme: belgrade
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

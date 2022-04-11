@@ -1,0 +1,11 @@
+uuid: 791490f0-7882-4319-a38e-0a25567c4177
+langcode: vi
+status: true
+dependencies:
+  module:
+    - commerce_shipping
+id: commerce_shipping_method.commerce_shipping_method
+target_entity_type_id: commerce_shipping_method
+target_bundle: commerce_shipping_method
+default_langcode: site_default
+language_alterable: false

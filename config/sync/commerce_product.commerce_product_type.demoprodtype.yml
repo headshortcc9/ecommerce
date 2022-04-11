@@ -1,0 +1,14 @@
+uuid: 7ea3a144-99a6-4634-ba6d-75f2d5246841
+langcode: en
+status: true
+dependencies: {  }
+id: demoprodtype
+label: DemoProdType
+traits: {  }
+locked: false
+description: 'Demo Product Type'
+variationType: demoprodtype
+variationTypes:
+  - demoprodtype
+multipleVariations: false
+injectVariationFields: true

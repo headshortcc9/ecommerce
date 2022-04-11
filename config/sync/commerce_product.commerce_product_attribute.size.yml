@@ -1,0 +1,9 @@
+uuid: ca515d0b-a919-4b16-8cbf-f001b6146a68
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 30WJOLQaq2rsyKLsjNWWE7NpT0kIZS2eBqeCyqs5btY
+id: size
+label: Size
+elementType: select

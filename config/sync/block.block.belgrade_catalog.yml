@@ -1,0 +1,25 @@
+uuid: 8da967cb-fee0-453f-a52f-4138b5f840c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.catalog
+  module:
+    - system
+  theme:
+    - belgrade
+id: belgrade_catalog
+theme: belgrade
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:catalog'
+settings:
+  id: catalog_footer
+  label: Catalog
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

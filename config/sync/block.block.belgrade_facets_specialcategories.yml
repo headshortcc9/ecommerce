@@ -1,0 +1,28 @@
+uuid: c6ef8a76-3664-4908-b7f4-0259a1bba934
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.special_categories
+  module:
+    - facets
+    - system
+  theme:
+    - belgrade
+id: belgrade_facets_specialcategories
+theme: belgrade
+region: sidebar_first
+weight: 2
+provider: null
+plugin: 'facet_block:special_categories'
+settings:
+  id: 'facet_block:special_categories'
+  label: 'Special categories'
+  label_display: visible
+  provider: facets
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/products\r\n/products/*"

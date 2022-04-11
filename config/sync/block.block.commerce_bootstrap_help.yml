@@ -1,0 +1,22 @@
+uuid: 8fc8439b-5449-41ee-a226-42f48c967069
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - commerce_bootstrap
+_core:
+  default_config_hash: gKtOcSQTQki2pujw1HB5crJu7WlQmuPbl9cMqPDeWtA
+id: commerce_bootstrap_help
+theme: commerce_bootstrap
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

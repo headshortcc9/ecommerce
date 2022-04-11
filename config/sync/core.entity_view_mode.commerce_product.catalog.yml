@@ -1,0 +1,12 @@
+uuid: 2d31a109-5ec9-432d-af17-7c2ea3c52257
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+_core:
+  default_config_hash: oFE2Wo6X5OazZcHisNOgSPEGg3oIs_Divtje1-hLGOg
+id: commerce_product.catalog
+label: Catalog
+targetEntityType: commerce_product
+cache: true

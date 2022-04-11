@@ -1,0 +1,11 @@
+uuid: ef3c9eda-1262-4371-99a7-a6038e4f8a65
+langcode: vi
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.menu_link_content
+target_entity_type_id: menu_link_content
+target_bundle: menu_link_content
+default_langcode: site_default
+language_alterable: false

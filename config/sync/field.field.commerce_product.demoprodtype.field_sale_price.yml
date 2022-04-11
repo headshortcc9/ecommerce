@@ -1,0 +1,24 @@
+uuid: 7e2a2382-2b9c-4576-a3c6-2017fd229515
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.demoprodtype
+    - field.storage.commerce_product.field_sale_price
+  module:
+    - commerce_price
+id: commerce_product.demoprodtype.field_sale_price
+field_name: field_sale_price
+entity_type: commerce_product
+bundle: demoprodtype
+label: 'Sale Price'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_currencies:
+    - '0'
+  allow_negative: false
+field_type: commerce_price

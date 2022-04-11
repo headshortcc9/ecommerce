@@ -1,0 +1,9 @@
+uuid: 41fa6d9b-0d8b-4436-8d2d-db2207da1173
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dRLz5vHeSzElOdLn8kWNvd2dehykwSOjJoKFihZNh3Q
+id: color
+label: Color
+elementType: commerce_product_rendered_attribute

@@ -1,0 +1,14 @@
+uuid: fda22c93-180d-4fbd-a579-d7a8d3bec516
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - da@eton.vn
+reply: ''
+weight: 0
+message: null
+redirect: null

@@ -1,0 +1,45 @@
+uuid: 8c55584d-bdf1-4e83-8adc-f635be9e98ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.demoprodtype
+    - field.storage.commerce_product_variation.field_images
+  module:
+    - content_translation
+    - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
+id: commerce_product_variation.demoprodtype.field_images
+field_name: field_images
+entity_type: commerce_product_variation
+bundle: demoprodtype
+label: Images
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

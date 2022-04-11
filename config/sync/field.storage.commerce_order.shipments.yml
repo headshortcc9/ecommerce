@@ -1,0 +1,22 @@
+uuid: 92096ef8-fb01-4f85-9521-c2c1d6c9cbda
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_order
+    - commerce_shipping
+_core:
+  default_config_hash: gm25x7ZmGot7nPelXUXF6zDmyYfWuC0h9gNmTkkszVg
+id: commerce_order.shipments
+field_name: shipments
+entity_type: commerce_order
+type: entity_reference
+settings:
+  target_type: commerce_shipment
+module: core
+locked: true
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

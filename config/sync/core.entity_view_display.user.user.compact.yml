@@ -1,0 +1,34 @@
+uuid: 1873ea32-b629-4629-aa99-f9edaf312258
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+    - field.field.user.user.commerce_remote_id
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: T2PsplcZ3qhzqgwW_aYCKQshCg_UQkSsKV45b03pEl4
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content:
+  user_picture:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: thumbnail
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  commerce_remote_id: true
+  customer_profiles: true
+  langcode: true
+  member_for: true
+  search_api_excerpt: true

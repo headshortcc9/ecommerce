@@ -34,10 +34,16 @@
     "require": {
         "php": ">=7.3",
         "ext-curl": "*",
-        "composer/installers": "^1.2",
+        "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
-        "drupal/core": "^9.0",
-        "drupal/core-composer-scaffold": "^9.0",
+        "drupal/admin_toolbar": "^2.0",
+        "drupal/commerce_pos": "^2.6",
+        "drupal/config_ignore": "^2.3",
+        "drupal/config_partial_export": "^1.6",
+        "drupal/core": "^9.3",
+        "drupal/core-composer-scaffold": "^9.3",
+        "drupal/core-project-message": "^9.3",
+        "drupal/restui": "^1.20",
         "drupalcommerce/demo_commerce": "dev-master",
         "drush/drush": "^9.7.1 | ^10.0.0",
         "oomphinc/composer-installers-extender": "^2.0",
@@ -45,8 +51,11 @@
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "drupal/core-dev": "^9.0",
-        "zaporylie/composer-drupal-optimizations": "^1.2"
+        "drupal/core-dev": "^9.3",
+        "zaporylie/composer-drupal-optimizations": "^1.2",
+	"drupal/devel": "^4.1",
+	"drupal/coder": "^8.3",
+        "mglaman/drupal-check": "^1.3"
     },
     "conflict": {
         "drupal/drupal": "*"

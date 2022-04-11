@@ -2,8 +2,68 @@ _core:
   default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
 definitions:
   contact__site_page:
-    enabled: true
     menu_name: footer
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__35':
+    menu_name: catalog
+    parent: ''
+    weight: 8
+    expanded: false
+    enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__32':
+    menu_name: catalog
+    parent: ''
+    weight: 12
+    expanded: false
+    enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__30':
+    menu_name: catalog
+    parent: ''
+    weight: 18
+    expanded: false
+    enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__34':
+    menu_name: catalog
+    parent: ''
+    weight: 20
+    expanded: false
+    enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__31':
+    menu_name: catalog
+    parent: ''
+    weight: 23
+    expanded: false
+    enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__33':
+    menu_name: catalog
+    parent: ''
+    weight: 26
+    expanded: false
+    enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__65':
+    enabled: false
+    menu_name: catalog
+    parent: ''
+    expanded: false
+    weight: 0
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__64':
+    enabled: false
+    menu_name: catalog
+    parent: ''
+    weight: 0
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__63':
+    enabled: false
+    menu_name: catalog
+    parent: ''
+    weight: 0
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__62':
+    enabled: false
+    menu_name: catalog
     parent: ''
     weight: 0
     expanded: false

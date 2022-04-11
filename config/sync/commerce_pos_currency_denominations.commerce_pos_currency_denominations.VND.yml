@@ -1,0 +1,7 @@
+uuid: b4b1bf16-ed5c-4aaf-a2f0-73fb69f953fb
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: VND
+denominations:
+  actions: {  }

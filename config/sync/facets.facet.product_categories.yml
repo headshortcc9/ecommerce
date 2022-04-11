@@ -15,29 +15,43 @@ _core:
   default_config_hash: FFd-rHtPLQRB9DtK_j-GaRsZ5WRRbNMrnYTP6yF1BcI
 id: product_categories
 name: Categories
-url_alias: category
 weight: 0
 min_count: 1
-show_only_one_result: false
-field_identifier: field_product_categories
+url_alias: category
 facet_source_id: 'search_api:views_page__product_catalog__page_1'
-widget:
-  type: checkbox
-  config:
-    show_numbers: false
-    soft_limit: 0
-    soft_limit_settings:
-      show_less_label: 'Show less'
-      show_more_label: 'Show more'
+field_identifier: field_product_categories
 query_operator: or
+hard_limit: 0
+exclude: false
 use_hierarchy: true
 keep_hierarchy_parents_active: false
 expand_hierarchy: false
 enable_parent_when_child_gets_disabled: true
-hard_limit: 0
-exclude: false
+widget:
+  type: checkbox
+  config:
+    show_numbers: true
+    soft_limit: 0
+    show_reset_link: false
+    reset_text: 'Show all'
+    hide_reset_when_no_selection: false
+    soft_limit_settings:
+      show_less_label: 'Show less'
+      show_more_label: 'Show more'
+empty_behavior:
+  behavior: none
 only_visible_when_facet_source_is_visible: true
+show_only_one_result: false
+show_title: false
 processor_configs:
+  exclude_specified_items:
+    processor_id: exclude_specified_items
+    weights:
+      build: 50
+    settings:
+      exclude: "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54\r\n"
+      regex: false
+      invert: false
   term_weight_widget_order:
     processor_id: term_weight_widget_order
     weights:
@@ -55,6 +69,3 @@ processor_configs:
       pre_query: -10
       build: -10
     settings: {  }
-empty_behavior:
-  behavior: none
-show_title: null

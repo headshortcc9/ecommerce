@@ -84,6 +84,9 @@
     },
     "extra": {
         "patches": {
+	    "drupal/taxonomy_term_depth": {
+		"Notice due to undefined $operations variable": "https://www.drupal.org/files/issues/2021-09-04/fix-not-defined-variable-notice-3231396-2.patch"
+	    }
         },
         "composer-exit-on-patch-failure": true,
         "patchLevel": {

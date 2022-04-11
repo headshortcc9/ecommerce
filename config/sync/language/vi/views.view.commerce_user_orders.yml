@@ -4,5 +4,9 @@ display:
       fields:
         order_id:
           label: Mã
+        placed:
+          label: 'Ngày tháng'
+        total_price__number:
+          label: Tổng
         state:
           label: Bang

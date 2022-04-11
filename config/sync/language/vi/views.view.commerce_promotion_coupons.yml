@@ -1,3 +1,4 @@
+label: 'Các phiếu khuyến mãi.'
 display:
   default:
     display_options:
@@ -7,3 +8,4 @@ display:
       fields:
         operations:
           label: 'Thao tác'
+      title: 'Các phiếu khuyến mãi.'

@@ -1,51 +1,56 @@
-uuid: 81ee1e53-c797-4de5-a62d-ec7802b3702d
+uuid: e767b0da-e509-4a89-9fdc-31cf4a70a404
 langcode: en
 status: true
 dependencies:
   config:
     - commerce_product.commerce_product_variation_type.default
-    - core.entity_view_mode.commerce_product_variation.summary
+    - core.entity_view_mode.commerce_product_variation.commerce_pos_product_select
     - field.field.commerce_product_variation.default.field_upc
   module:
     - commerce_price
-  enforced:
-    module:
-      - commerce_checkout
 _core:
-  default_config_hash: jmDRQILFIWJUS3jS-qLF10aGc1IXnvFEBizwJl94FfU
-id: commerce_product_variation.default.summary
+  default_config_hash: CaV62IL3fyfv9BhMhtrdHg4o3TnSvDoU9cAX12G3Png
+id: commerce_product_variation.default.commerce_pos_product_select
 targetEntityType: commerce_product_variation
 bundle: default
-mode: summary
+mode: commerce_pos_product_select
 content:
   list_price:
-    type: commerce_price_default
     label: above
+    type: commerce_price_default
+    weight: -1
+    region: content
     settings:
       strip_trailing_zeroes: false
       currency_display: symbol
     third_party_settings: {  }
-    weight: -1
+  price:
+    label: inline
+    type: commerce_price_default
+    weight: 1
     region: content
-  product_id:
-    type: entity_reference_label
-    label: hidden
     settings:
-      link: true
+      strip_trailing_zeroes: false
+      currency_display: symbol
     third_party_settings: {  }
-    weight: 0
+  sku:
+    type: string
+    weight: 2
     region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
   title:
     type: string
+    weight: 0
+    region: content
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: -5
-    region: content
 hidden:
   field_upc: true
   langcode: true
-  price: true
+  product_id: true
   search_api_excerpt: true
-  sku: true

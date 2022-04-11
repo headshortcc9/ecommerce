@@ -5,6 +5,8 @@ display:
       fields:
         nothing:
           admin_label: 'Biểu tượng'
+        timestamp:
+          label: 'Ngày tháng'
         name:
           label: 'Người dùng'
         link:

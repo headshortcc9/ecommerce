@@ -1,0 +1,25 @@
+uuid: bb304db2-37d4-4e9d-b6c2-e6c1cbac3ff6
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - text
+  enforced:
+    module:
+      - commerce_pos
+_core:
+  default_config_hash: MbmZu04PF11uMiZX6TeNE3dx1UdLRTAhLV0JR6F3iKI
+id: commerce_product_variation.field_upc
+field_name: field_upc
+entity_type: commerce_product_variation
+type: text
+settings:
+  max_length: 13
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

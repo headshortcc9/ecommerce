@@ -5,8 +5,18 @@ display:
         options:
           submit_button: Lọc
       fields:
+        placed:
+          label: 'Ngày tháng'
+        store_id:
+          label: 'Gian hàng'
+        uid:
+          label: 'Khách hàng'
+        mail:
+          label: 'Thư điện tử'
         state:
           label: Bang
+        total_price__number:
+          label: Tổng
         operations:
           label: 'Thao tác'
       filters:

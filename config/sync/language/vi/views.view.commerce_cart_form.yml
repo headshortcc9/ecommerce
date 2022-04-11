@@ -1,0 +1,12 @@
+display:
+  default:
+    display_options:
+      fields:
+        unit_price__number:
+          label: Giá
+        edit_quantity:
+          label: 'Số lượng'
+        remove_button:
+          label: Xoá
+        total_price__number:
+          label: Tổng

@@ -4,7 +4,5 @@ display:
       fields:
         title:
           label: 'Tiêu đề'
-        amount__number:
+        quantity:
           label: 'Số lượng'
-        state:
-          label: Bang

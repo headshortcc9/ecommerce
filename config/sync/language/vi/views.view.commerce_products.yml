@@ -5,7 +5,13 @@ display:
         options:
           submit_button: Lọc
       fields:
+        title:
+          label: 'Tiêu đề'
         status:
           label: 'Trạng thái'
         operations:
           label: 'Thao tác'
+      filters:
+        title:
+          expose:
+            label: 'Tiêu đề'

@@ -18,3 +18,7 @@ display:
         status:
           group_info:
             label: 'Trạng thái'
+  page_1:
+    display_options:
+      menu:
+        title: 'Danh sách'

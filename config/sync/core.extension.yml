@@ -23,6 +23,9 @@ module:
   commerce_order: 0
   commerce_payment: 0
   commerce_payment_example: 0
+  commerce_pos: 0
+  commerce_pos_currency_denominations: 0
+  commerce_pos_keypad: 0
   commerce_price: 0
   commerce_product: 0
   commerce_promotion: 0
@@ -79,6 +82,7 @@ module:
   taxonomy: 0
   taxonomy_menu: 0
   taxonomy_term_depth: 0
+  telephone: 0
   text: 0
   token: 0
   toolbar: 0

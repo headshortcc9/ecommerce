@@ -5,6 +5,8 @@ display:
       fields:
         filename:
           label: Tên
+        filesize:
+          label: 'Dung lượng'
         status:
           label: 'Trạng thái'
       exposed_form:

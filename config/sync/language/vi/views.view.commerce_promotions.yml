@@ -14,3 +14,9 @@ display:
         status:
           expose:
             label: 'Trạng thái'
+  admin:
+    display_options:
+      menu:
+        title: 'Danh sách'
+      tab_options:
+        title: 'Danh sách'

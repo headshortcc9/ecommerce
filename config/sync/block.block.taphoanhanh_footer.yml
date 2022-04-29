@@ -1,0 +1,27 @@
+uuid: 9c63a7e0-64ce-4c24-9654-072834482387
+langcode: vi
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - taphoanhanh
+_core:
+  default_config_hash: nI9USQjCYio-S2yKUK3OfHTG92pwjXbHdzhKKeAWaAY
+id: taphoanhanh_footer
+theme: taphoanhanh
+region: footer
+weight: -8
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

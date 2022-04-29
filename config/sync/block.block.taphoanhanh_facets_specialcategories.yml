@@ -1,0 +1,28 @@
+uuid: b9f4059e-5fd2-464b-aa0d-15c8698ad419
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.special_categories
+  module:
+    - facets
+    - system
+  theme:
+    - taphoanhanh
+id: taphoanhanh_facets_specialcategories
+theme: taphoanhanh
+region: sidebar_first
+weight: 2
+provider: null
+plugin: 'facet_block:special_categories'
+settings:
+  id: 'facet_block:special_categories'
+  label: 'Special categories'
+  label_display: visible
+  provider: facets
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/products\r\n/products/*"

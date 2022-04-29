@@ -1,0 +1,25 @@
+uuid: 8874a8b1-b5f7-49ac-bde6-e2dfc0543818
+langcode: vi
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - taphoanhanh
+id: taphoanhanh_breadcrumbs
+theme: taphoanhanh
+region: highlighted
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/checkout\r\n/checkout/*"

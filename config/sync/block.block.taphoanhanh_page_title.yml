@@ -1,0 +1,27 @@
+uuid: fcf2b2c3-7234-4891-b858-16daa3a65d1c
+langcode: vi
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - taphoanhanh
+_core:
+  default_config_hash: mmcopYofUmb3PLb10rD6utbPoo6_zpxaX4yf3i4xmH8
+id: taphoanhanh_page_title
+theme: taphoanhanh
+region: content
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/product/*\r\n/products*"

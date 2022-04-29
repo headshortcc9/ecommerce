@@ -25,7 +25,7 @@ content:
     region: content
   list_price:
     type: commerce_price_default
-    label: above
+    label: hidden
     settings:
       strip_trailing_zeroes: false
       currency_display: symbol
@@ -34,7 +34,7 @@ content:
     region: content
   price:
     type: commerce_price_default
-    label: above
+    label: hidden
     settings:
       strip_trailing_zeroes: false
       currency_display: symbol

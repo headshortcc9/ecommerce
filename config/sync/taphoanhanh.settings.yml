@@ -1,0 +1,19 @@
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'https://localhost:8443/themes/contrib/commerce_bootstrap/favicon.ico'
+  use_default: true
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://eton.png'
+  url: ''
+  use_default: false
+schemas:
+  bootstrap: 8000
+  commerce_bootstrap: 8000
+  belgrade: 8000
+  taphoanhanh: 8000

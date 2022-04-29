@@ -1,0 +1,22 @@
+uuid: 7df33fa2-410d-4832-9360-2733e548afd1
+langcode: vi
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - taphoanhanh
+_core:
+  default_config_hash: gKtOcSQTQki2pujw1HB5crJu7WlQmuPbl9cMqPDeWtA
+id: taphoanhanh_help
+theme: taphoanhanh
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

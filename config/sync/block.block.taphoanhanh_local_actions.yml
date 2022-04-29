@@ -1,0 +1,20 @@
+uuid: aa379d2a-98fb-46bd-a828-27599b61c93b
+langcode: vi
+status: true
+dependencies:
+  theme:
+    - taphoanhanh
+_core:
+  default_config_hash: EAlCAHiVy5x3aTOW2K9XaWE4kelyfSSSKv8_uiomGJM
+id: taphoanhanh_local_actions
+theme: taphoanhanh
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

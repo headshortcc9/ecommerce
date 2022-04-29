@@ -34,6 +34,7 @@ module:
   commerce_store: 0
   commerce_tax: 0
   config: 0
+  config_partial_export: 0
   config_translation: 0
   consumers: 0
   contact: 0
@@ -104,4 +105,5 @@ theme:
   bootstrap: 0
   commerce_bootstrap: 0
   belgrade: 0
+  taphoanhanh: 0
 profile: demo_commerce

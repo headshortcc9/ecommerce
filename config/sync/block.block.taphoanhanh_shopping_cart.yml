@@ -1,0 +1,23 @@
+uuid: d16a9653-422d-4795-896d-9bd0174ca6ed
+langcode: vi
+status: true
+dependencies:
+  module:
+    - commerce_cart_flyout
+  theme:
+    - taphoanhanh
+id: taphoanhanh_shopping_cart
+theme: taphoanhanh
+region: top_navigation
+weight: -8
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: 'Shopping Cart'
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+  use_quantity_count: false
+  item_text: items
+visibility: {  }

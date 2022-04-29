@@ -1,0 +1,27 @@
+uuid: 848a6b5b-358c-402e-a32b-da1ad2c81ef3
+langcode: vi
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - taphoanhanh
+_core:
+  default_config_hash: 63FLrk7BpcLU-5YLZwWVCOtOMozD8mSzBytCiu0Oznc
+id: taphoanhanh_main_menu
+theme: taphoanhanh
+region: navigation
+weight: -7
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

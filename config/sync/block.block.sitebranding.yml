@@ -1,0 +1,23 @@
+uuid: 4857051b-77ff-49f8-9642-cd8e4f91dd1a
+langcode: vi
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - taphoanhanh
+id: sitebranding
+theme: taphoanhanh
+region: footer
+weight: -10
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: true
+visibility: {  }

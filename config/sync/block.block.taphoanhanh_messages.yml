@@ -1,0 +1,22 @@
+uuid: cbe37864-e3d5-4d38-a1f9-672247e90b28
+langcode: vi
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - taphoanhanh
+_core:
+  default_config_hash: uxiZlSldLtoOp05pfXeKJxxtvB0ckxx3mAAabJdAJnU
+id: taphoanhanh_messages
+theme: taphoanhanh
+region: highlighted
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

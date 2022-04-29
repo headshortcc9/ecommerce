@@ -1,0 +1,22 @@
+uuid: a733a889-0c9c-4eb8-abe7-a4a568d6a05f
+langcode: vi
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - taphoanhanh
+_core:
+  default_config_hash: XJkApTCnidVbNIe-SvLIX1pVPIiw5j_m0SWT-eYw39E
+id: taphoanhanh_content
+theme: taphoanhanh
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

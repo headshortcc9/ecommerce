@@ -1,0 +1,28 @@
+uuid: da1db0f8-2e2a-4a3b-8edb-a6c12b6af18a
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.product_categories
+  module:
+    - facets
+    - system
+  theme:
+    - taphoanhanh
+id: taphoanhanh_facets_categories
+theme: taphoanhanh
+region: sidebar_first
+weight: 1
+provider: null
+plugin: 'facet_block:product_categories'
+settings:
+  id: 'facet_block:product_categories'
+  label: Categories
+  label_display: visible
+  provider: facets
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/products\r\n/products/*"

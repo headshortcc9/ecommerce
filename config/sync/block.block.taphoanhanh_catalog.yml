@@ -1,0 +1,25 @@
+uuid: 5c6f418b-819d-4603-afd7-6beb23b0ff92
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.catalog
+  module:
+    - system
+  theme:
+    - taphoanhanh
+id: taphoanhanh_catalog
+theme: taphoanhanh
+region: footer
+weight: -9
+provider: null
+plugin: 'system_menu_block:catalog'
+settings:
+  id: catalog_footer
+  label: Catalog
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

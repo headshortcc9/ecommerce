@@ -1,0 +1,22 @@
+uuid: 39fdfaca-1f99-4c75-b184-0fa28efbc94d
+langcode: vi
+status: true
+dependencies:
+  theme:
+    - taphoanhanh
+_core:
+  default_config_hash: rmiFUWInr28Z1v9rk-oycl_G9hlS7PzBvKbih2qIEuM
+id: taphoanhanh_local_tasks
+theme: taphoanhanh
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

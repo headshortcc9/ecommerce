@@ -1,0 +1,12 @@
+uuid: d26c0405-409e-4fdf-b4d1-1ee312ae1fb5
+langcode: en
+status: true
+dependencies: {  }
+id: dang_ki_nhan_tin
+label: 'Đăng kí nhận tin'
+recipients:
+  - webmaster@example.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

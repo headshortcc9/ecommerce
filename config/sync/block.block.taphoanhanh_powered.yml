@@ -1,0 +1,22 @@
+uuid: 1b3cbc17-5c99-431f-8165-d5ae17eda1a6
+langcode: vi
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - taphoanhanh
+_core:
+  default_config_hash: z0llL779cPFRJ5myqA63dPOl35O7K1lx6wP5omHTi8U
+id: taphoanhanh_powered
+theme: taphoanhanh
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

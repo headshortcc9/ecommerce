@@ -36,7 +36,7 @@ content:
     label: above
     settings:
       strip_trailing_zeroes: false
-      currency_display: symbol
+      currency_display: none
     third_party_settings: {  }
     weight: 0
     region: content

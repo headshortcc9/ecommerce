@@ -20,7 +20,7 @@ mode: default
 content:
   field_barcode:
     type: string
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -28,7 +28,7 @@ content:
     region: content
   field_sale_price:
     type: commerce_price_default
-    label: above
+    label: hidden
     settings:
       strip_trailing_zeroes: false
       currency_display: symbol
@@ -45,7 +45,7 @@ content:
     region: content
   variations:
     type: commerce_add_to_cart
-    label: above
+    label: hidden
     settings:
       combine: true
     third_party_settings: {  }

@@ -1,0 +1,30 @@
+core: 8.x
+core_version_requirement: ^8 || ^9
+type: theme
+base theme: belgrade
+
+name: 'Taphoanhanh'
+description: 'Taphoanhanh theme for Drupal Commerce.'
+package: 'Bootstrap'
+
+regions:
+  navigation: 'Navigation'
+  top_navigation: 'Navigation (Top bar)'
+  header: 'Header'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+# libraries-override:
+#   # Replace an entire library.
+#   bootstrap/framework: belgrade/bootstrap-scripts
+
+libraries:
+  - taphoanhanh/color
+  - taphoanhanh/theme
+  - taphoanhanh/icon

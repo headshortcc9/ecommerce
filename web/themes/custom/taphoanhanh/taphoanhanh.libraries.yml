@@ -1,0 +1,15 @@
+color:
+  css:
+    theme:
+      assets/css/color.css: {}
+
+
+theme:
+  css:
+    theme:
+      assets/css/style.css: {}
+
+icon:
+  css:
+    theme:
+      assets/css/all.min.css: {}

@@ -38,9 +38,10 @@
 }
 .commerce-product--catalog .button{
     padding: 10px 40px 7px 40px;
-    background-color: var( --primary ) !important;
+    margin-top: 16px;
     border: 0;
 }
+
 .featured-products > h2{
     color: var(--dark) !important;
     font-weight: 600;
@@ -55,6 +56,15 @@
 .commerce-product--catalog .field--name-price{
     color: var(--primary);
 }
+.commerce-product--catalog__info .field--name-quantity{
+    display: none !important;
+}
+.btn-primary {
+    border: 0 !important;
+}
+.button--primary {
+    background-color: var(--primary) !important;
+}
 .commerce-product--catalog__info {
     flex-direction: column;
     position: relative;
@@ -66,14 +76,29 @@
     font-size: 18px;
     transition: all .4s ease;
 }
-.footer {
-    background-color: #fff !important;
+.menu-catalog>.menu__item>.menu__link {
+    color: #484A49 !important;
 }
-
-.footer .menu-catalog li{
+/* Footer */
+.footer {
+    background-color: #FFF3E7 !important;
+}
+.footer .menu-catalog>.menu__item>.menu__link{
+    text-transform: lowercase !important;
+}
+.footer .menu>li>a {
+    font-size: 18px;
     color: #484A49;
 }
-
+.footer .block-title{
+    color: var(--primary) !important;
+}
+.footer--contents>nav {
+    margin-left: 10%;
+}
+.footer #block-signuptoreceivenews {
+    margin-left: 100px;
+}
 .footer .menu-footer__item>a{
     color: var(--primary) !important;
     font-weight: 600;
@@ -85,6 +110,30 @@
 .glyph__circled {
     color: var(--primary) !important;
 }
+
+.footer .form-item label{
+    display: none;
+}
+
 .well-primary {
     background: linear-gradient(90deg, #F9820B 36.66%, rgba(249, 130, 11, 0.6) 100%) !important;
+}
+
+/** Quantity */
+.commerce-order-item-add-to-cart-form {
+    display: flex;
+    align-items: center;
+}
+.commerce-order-item-add-to-cart-form .field--name-quantity {
+    display: block;
+    float: left;
+    padding-right: 30px;
+    margin: 0;
+
+}
+.commerce-order-item-add-to-cart-form #edit-actions{
+    float: right;
+}
+.commerce-order-item-add-to-cart-form .field--name-quantity label {
+    display: none;
 }

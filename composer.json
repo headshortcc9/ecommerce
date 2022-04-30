@@ -44,6 +44,7 @@
         "drupal/commerce_pos": "^2.6",
         "drupal/config_ignore": "^2.3",
         "drupal/config_partial_export": "^1.6",
+        "drupal/contact_storage": "^1.1",
         "drupal/core": "^9.3",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",

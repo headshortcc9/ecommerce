@@ -25,6 +25,7 @@ regions:
 #   bootstrap/framework: belgrade/bootstrap-scripts
 
 libraries:
-  - taphoanhanh/color
-  - taphoanhanh/theme
-  - taphoanhanh/icon
+  - 'taphoanhanh/color'
+  - 'taphoanhanh/theme'
+  - 'taphoanhanh/icon'
+  - 'taphoanhanh/fonts'

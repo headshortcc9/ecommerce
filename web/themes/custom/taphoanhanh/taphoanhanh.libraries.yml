@@ -3,7 +3,10 @@ color:
     theme:
       assets/css/color.css: {}
 
-
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Lato:300,400,400i,700': { type: external, minified: true }
 theme:
   css:
     theme:

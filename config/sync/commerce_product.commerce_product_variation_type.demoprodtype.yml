@@ -6,5 +6,5 @@ id: demoprodtype
 label: DemoProdType
 traits: {  }
 locked: false
-orderItemType: default
-generateTitle: null
+orderItemType: physical_product_variation
+generateTitle: false

@@ -1,0 +1,28 @@
+uuid: 68bbb2af-02c2-41e2-ae0d-bee3dc5a0d27
+langcode: vi
+status: true
+dependencies:
+  config:
+    - contact.form.dang_ki_nhan_tin
+    - field.field.contact_message.dang_ki_nhan_tin.field_email
+id: contact_message.dang_ki_nhan_tin.default
+targetEntityType: contact_message
+bundle: dang_ki_nhan_tin
+mode: default
+content:
+  field_email:
+    type: email_default
+    weight: 0
+    region: content
+    settings:
+      placeholder: 'Enter mail Address'
+      size: 20
+    third_party_settings: {  }
+hidden:
+  copy: true
+  langcode: true
+  mail: true
+  message: true
+  name: true
+  preview: true
+  subject: true

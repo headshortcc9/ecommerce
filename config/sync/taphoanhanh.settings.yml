@@ -1,3 +1,8 @@
+schemas:
+  bootstrap: 8000
+  commerce_bootstrap: 8000
+  belgrade: 8000
+  taphoanhanh: 8000
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
@@ -12,8 +17,4 @@ logo:
   path: 'public://eton.png'
   url: ''
   use_default: false
-schemas:
-  bootstrap: 8000
-  commerce_bootstrap: 8000
-  belgrade: 8000
-  taphoanhanh: 8000
+breadcrumb_title: false

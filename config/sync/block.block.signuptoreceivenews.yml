@@ -1,0 +1,25 @@
+uuid: 236ac68e-1808-4217-862d-d4b6257efc68
+langcode: vi
+status: true
+dependencies:
+  content:
+    - 'block_content:sign_up_receive_news:ff0a2b57-230a-4ba2-9859-d5e4271fefbe'
+  module:
+    - block_content
+  theme:
+    - taphoanhanh
+id: signuptoreceivenews
+theme: taphoanhanh
+region: footer
+weight: -8
+provider: null
+plugin: 'block_content:ff0a2b57-230a-4ba2-9859-d5e4271fefbe'
+settings:
+  id: 'block_content:ff0a2b57-230a-4ba2-9859-d5e4271fefbe'
+  label: ' ĐĂNG KÍ NHẬN TIN'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

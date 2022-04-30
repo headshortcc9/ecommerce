@@ -1,0 +1,11 @@
+uuid: 0ee80835-9a5d-4ade-9afc-3f4e64361112
+langcode: vi
+status: true
+dependencies:
+  config:
+    - block_content.type.sign_up_receive_news
+id: block_content.sign_up_receive_news
+target_entity_type_id: block_content
+target_bundle: sign_up_receive_news
+default_langcode: site_default
+language_alterable: false

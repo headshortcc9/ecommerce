@@ -1,0 +1,11 @@
+uuid: a4894a83-20c2-477e-9805-fd62104c944d
+langcode: vi
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.demoprodtype
+id: commerce_product_variation.demoprodtype
+target_entity_type_id: commerce_product_variation
+target_bundle: demoprodtype
+default_langcode: site_default
+language_alterable: false

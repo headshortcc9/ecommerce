@@ -15,12 +15,12 @@ mode: default
 content:
   field_images:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: ''
       image_style: ''
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
   list_price:
     type: commerce_price_default
@@ -29,16 +29,16 @@ content:
       strip_trailing_zeroes: false
       currency_display: symbol
     third_party_settings: {  }
-    weight: -1
+    weight: 0
     region: content
   price:
     type: commerce_price_default
-    label: above
+    label: hidden
     settings:
       strip_trailing_zeroes: false
-      currency_display: none
+      currency_display: symbol
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
 hidden:
   langcode: true

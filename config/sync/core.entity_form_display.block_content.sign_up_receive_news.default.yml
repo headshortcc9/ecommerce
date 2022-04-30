@@ -1,0 +1,49 @@
+uuid: d41fb5f7-f3ba-4ac2-8924-1df1d77abb2d
+langcode: vi
+status: true
+dependencies:
+  config:
+    - block_content.type.sign_up_receive_news
+    - field.field.block_content.sign_up_receive_news.field_form
+    - field.field.block_content.sign_up_receive_news.field_social
+id: block_content.sign_up_receive_news.default
+targetEntityType: block_content
+bundle: sign_up_receive_news
+mode: default
+content:
+  field_form:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_social:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

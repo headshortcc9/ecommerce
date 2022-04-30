@@ -1,0 +1,30 @@
+uuid: 03e2600e-7dfe-4891-92d8-eda2b25948ef
+langcode: vi
+status: true
+dependencies:
+  config:
+    - contact.form.dang_ki_nhan_tin
+    - field.field.contact_message.dang_ki_nhan_tin.field_email
+id: contact_message.dang_ki_nhan_tin.default
+targetEntityType: contact_message
+bundle: dang_ki_nhan_tin
+mode: default
+content:
+  field_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  message:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

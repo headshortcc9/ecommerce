@@ -1,0 +1,34 @@
+uuid: 71a44acb-c558-43c3-9e9b-594fc783de2e
+langcode: vi
+status: true
+dependencies:
+  config:
+    - block_content.type.sign_up_receive_news
+    - field.field.block_content.sign_up_receive_news.field_form
+    - field.field.block_content.sign_up_receive_news.field_social
+id: block_content.sign_up_receive_news.default
+targetEntityType: block_content
+bundle: sign_up_receive_news
+mode: default
+content:
+  field_form:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_social:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

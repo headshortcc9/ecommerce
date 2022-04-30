@@ -1,0 +1,19 @@
+uuid: 2a4e4879-797b-4901-adfe-b4270029a8dd
+langcode: vi
+status: true
+dependencies:
+  config:
+    - contact.form.dang_ki_nhan_tin
+    - field.storage.contact_message.field_email
+id: contact_message.dang_ki_nhan_tin.field_email
+field_name: field_email
+entity_type: contact_message
+bundle: dang_ki_nhan_tin
+label: Email
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

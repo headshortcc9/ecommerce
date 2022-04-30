@@ -11,30 +11,12 @@ dependencies:
     - field.field.commerce_product.demoprodtype.field_sale_price
     - field.field.commerce_product.demoprodtype.field_special_categories
   module:
-    - commerce_price
     - commerce_product
 id: commerce_product.demoprodtype.default
 targetEntityType: commerce_product
 bundle: demoprodtype
 mode: default
 content:
-  field_barcode:
-    type: string
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_sale_price:
-    type: commerce_price_default
-    label: hidden
-    settings:
-      strip_trailing_zeroes: false
-      currency_display: symbol
-    third_party_settings: {  }
-    weight: 3
-    region: content
   title:
     type: string
     label: hidden
@@ -54,8 +36,10 @@ content:
 hidden:
   body: true
   created: true
+  field_barcode: true
   field_brand: true
   field_product_categories: true
+  field_sale_price: true
   field_special_categories: true
   langcode: true
   search_api_excerpt: true

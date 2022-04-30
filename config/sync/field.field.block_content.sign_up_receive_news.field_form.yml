@@ -1,0 +1,23 @@
+uuid: 2b6b5b9a-7725-4905-a599-f9f9e67709f0
+langcode: vi
+status: true
+dependencies:
+  config:
+    - block_content.type.sign_up_receive_news
+    - field.storage.block_content.field_form
+id: block_content.sign_up_receive_news.field_form
+field_name: field_form
+entity_type: block_content
+bundle: sign_up_receive_news
+label: form
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:contact_form'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

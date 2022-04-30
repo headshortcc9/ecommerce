@@ -1,0 +1,8 @@
+uuid: 73b3c706-9f85-43c3-947d-9985c6c22328
+langcode: vi
+status: true
+dependencies: {  }
+id: sign_up_receive_news
+label: sign_up_receive_news
+revision: 0
+description: ''

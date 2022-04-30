@@ -1,6 +1,6 @@
 uuid: 10f04ea2-eed3-41f5-b2fb-48fcbf34b940
 langcode: vi
-status: true
+status: false
 dependencies:
   config:
     - system.menu.social

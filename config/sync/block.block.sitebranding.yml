@@ -9,7 +9,7 @@ dependencies:
 id: sitebranding
 theme: taphoanhanh
 region: footer
-weight: -10
+weight: -11
 provider: null
 plugin: system_branding_block
 settings:

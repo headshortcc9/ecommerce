@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Taphoanhanh theme for Drupal Commerce.
+ */
+
+
+function taphoanhanh_theme_suggestions_form_alter(array &$suggestions, array $variables, $hook) {
+    if($variables['element']['#id'] === 'contact-message-dang-ki-nhan-tin-form'){
+       $suggestions[]=$hook.'__register';
+    }
+  }
+
+function taphoanhanh_theme_suggestions_input__submit_alter(array &$suggestions, array $variables, $hook) {
+    dd($variables['element']);
+    if($variables['element']['#id'] === 'edit-submit'){
+        $suggestions[]=$hook.'__register__submit';
+    }
+}

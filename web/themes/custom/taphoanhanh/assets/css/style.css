@@ -1,3 +1,6 @@
+/**
+ * Font 
+ */
 body{
     font-family: "Lato",sans-serif; ;
 }
@@ -6,6 +9,18 @@ body{
     background-color: var( --primary );
 }
 
+.menu-account li a {
+    display: flex;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+}
+.menu-account i {
+    font-size: 33px;
+    color: #fff;
+    padding-right: 8px;
+}
 /* Header*/
 
 .region-header {
@@ -57,6 +72,7 @@ body{
     text-align: center;
 }
 .commerce-product--catalog .field--name-price{
+    padding-top: 8px;
     color: var(--primary);
 }
 .commerce-product--catalog__info .field--name-quantity{
@@ -139,4 +155,22 @@ body{
 }
 .commerce-order-item-add-to-cart-form .field--name-quantity label {
     display: none;
+}
+
+aside#cart-offcanvas>div {
+    background-color: #fff !important;
+}
+
+aside#cart-offcanvas .cart-block--offcanvas-cart-table__price{
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 37px;
+}
+aside#cart-offcanvas .cart-block--offcanvas-contents__links {
+    background-color: var(--primary);
+}
+
+aside#cart-offcanvas .cart-block--offcanvas-contents__links>a{
+    color: #fff !important;
 }

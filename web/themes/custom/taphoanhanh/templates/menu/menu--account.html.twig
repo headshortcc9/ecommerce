@@ -16,14 +16,12 @@
  */
 #}
 {% import _self as menus %}
-
 {#
   We call a macro which calls itself to render the full tree.
   @see http://twig.sensiolabs.org/doc/tags/macro.html
 #}
 {{ menus.menu_links(items, attributes, 0, menu_name) }}
-
-{% macro menu_links(items, attributes, menu_level, menu_name) %}
+{% macro menu_links(items, attributes, menu_level, menu_name, logged_in) %}
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
@@ -63,13 +61,11 @@
         </span>
       {% else %}
         <li{{ item.attributes.addClass(item_classes) }}>
-        {{
-          link(
-            item.title,
-            item.url,
-            item.attributes.removeClass(item_classes).addClass(link_classes)
-          )
-        }}
+          {% if logged_in == false %}
+          <a href='{{ item.url }}'><i class="fa fa-sign-in"></i>{{ item.title }}</a>
+          {% else %}
+          <a href='{{ item.url }}'><i class="fa fa-sign-out"></i>{{ item.title }}</a>
+          {% endif %}
         {% endif %}
       {% if item.below %}
         {{ menus.menu_links(item.below, attributes.removeClass('nav'), menu_level + 1, menu_name) }}

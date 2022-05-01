@@ -27,5 +27,5 @@ regions:
 libraries:
   - 'taphoanhanh/color'
   - 'taphoanhanh/theme'
-  - 'taphoanhanh/icon'
+  - 'taphoanhanh/font-awesome'
   - 'taphoanhanh/fonts'

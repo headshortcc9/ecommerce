@@ -20,8 +20,9 @@
   We call a macro which calls itself to render the full tree.
   @see http://twig.sensiolabs.org/doc/tags/macro.html
 #}
-{{ menus.menu_links(items, attributes, 0, menu_name) }}
-{% macro menu_links(items, attributes, menu_level, menu_name, logged_in) %}
+{{ menus.menu_links(items, attributes, 0, menu_name,icon_path,base_theme_path) }}
+
+{% macro menu_links(items, attributes, menu_level, menu_name, icon_path, base_path) %}
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
@@ -62,7 +63,7 @@
       {% else %}
         <li{{ item.attributes.addClass(item_classes) }}>
           {% if logged_in == false %}
-          <a href='{{ item.url }}'><i class="fa fa-sign-in"></i>{{ item.title }}</a>
+          <a href='{{ item.url }}'><img src="/{{ base_path }}/icons/login.svg" alt="Login icon">{{ item.title }}</a>
           {% else %}
           <a href='{{ item.url }}'><i class="fa fa-sign-out"></i>{{ item.title }}</a>
           {% endif %}

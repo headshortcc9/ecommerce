@@ -24,3 +24,13 @@ function taphoanhanh_preprocess(&$variables,$hook) {
     $themePath = $themeHandler->getTheme($themeHandler->getDefault())->getPath();
     $variables['base_theme_path'] = $themePath;
 }
+
+function taphoanhanh_preprocess_node(&$variables) {
+    $type = $variables['node']->getType();
+    if($type == 'demo_bill'){
+        $data = $variables['node']->get('body')->value;
+        $data = strip_tags($data);
+        $data_json = json_decode($data);
+        $variables['bill_data'] = $data_json[0];
+    }
+}

@@ -1,0 +1,17 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Lọc
+      fields:
+        store_id:
+          label: 'Gian hàng'
+        uid:
+          label: 'Khách hàng'
+        mail:
+          label: 'Thư điện tử'
+        total_price__number:
+          label: Tổng
+        operations:
+          label: 'Thao tác'

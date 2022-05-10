@@ -1,0 +1,22 @@
+display:
+  default:
+    display_title: 'Mặc định'
+    display_options:
+      fields:
+        name:
+          label: Tên
+        operations:
+          label: 'Thao tác'
+      filters:
+        name:
+          expose:
+            label: Tên
+        status:
+          expose:
+            label: 'Trạng thái'
+  admin:
+    display_options:
+      menu:
+        title: 'Danh sách'
+      tab_options:
+        title: 'Danh sách'

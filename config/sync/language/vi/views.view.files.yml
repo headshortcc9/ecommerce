@@ -1,0 +1,18 @@
+display:
+  default:
+    display_title: 'Mặc định'
+    display_options:
+      fields:
+        filename:
+          label: Tên
+        filesize:
+          label: 'Dung lượng'
+        status:
+          label: 'Trạng thái'
+      exposed_form:
+        options:
+          submit_button: Lọc
+      filters:
+        status:
+          expose:
+            label: 'Trạng thái'

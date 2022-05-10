@@ -11,4 +11,4 @@ page:
   front: /frontpage
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: vi
+default_langcode: en

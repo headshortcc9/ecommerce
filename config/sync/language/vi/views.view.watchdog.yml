@@ -1,0 +1,16 @@
+display:
+  default:
+    display_title: 'Mặc định'
+    display_options:
+      fields:
+        nothing:
+          admin_label: 'Biểu tượng'
+        timestamp:
+          label: 'Ngày tháng'
+        name:
+          label: 'Người dùng'
+        link:
+          label: 'Thao tác'
+      exposed_form:
+        options:
+          submit_button: Lọc

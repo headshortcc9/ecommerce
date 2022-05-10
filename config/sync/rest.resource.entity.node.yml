@@ -5,6 +5,7 @@ dependencies:
   module:
     - node
     - serialization
+    - simple_oauth
     - user
 id: entity.node
 plugin_id: 'entity:node'
@@ -17,4 +18,5 @@ configuration:
   formats:
     - json
   authentication:
+    - oauth2
     - cookie

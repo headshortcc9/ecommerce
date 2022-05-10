@@ -1,0 +1,7 @@
+content:
+  order_items:
+    settings:
+      placeholder: 'Scan or enter product name or SKU'
+  uid:
+    settings:
+      placeholder: 'Enter a name, email, or phone number'

@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Lọc
+      fields:
+        placed:
+          label: 'Ngày tháng'
+        store_id:
+          label: 'Gian hàng'
+        uid:
+          label: 'Khách hàng'
+        mail:
+          label: 'Thư điện tử'
+        state:
+          label: Bang
+        total_price__number:
+          label: Tổng
+      filters:
+        state:
+          expose:
+            label: Bang
+  page_1:
+    display_options:
+      tab_options:
+        description: 'Danh sách đơn hàng của bạn'

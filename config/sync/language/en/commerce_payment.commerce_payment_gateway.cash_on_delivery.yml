@@ -1,0 +1,5 @@
+label: 'Cash on delivery'
+configuration:
+  instructions:
+    value: 'You will pay when receiving package. '
+  display_label: 'Cash on delivery'

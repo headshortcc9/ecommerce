@@ -1,0 +1,6 @@
+content:
+  field_color:
+    settings:
+      shape: square
+      width: '30'
+      height: '30'

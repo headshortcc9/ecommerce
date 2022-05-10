@@ -1,0 +1,5 @@
+label: 'Greenville sales tax'
+configuration:
+  rates:
+    -
+      label: Standard

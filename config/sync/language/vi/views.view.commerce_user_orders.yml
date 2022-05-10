@@ -1,0 +1,15 @@
+label: 'Người tạo đơn'
+display:
+  default:
+    display_options:
+      fields:
+        order_id:
+          label: Mã
+        placed:
+          label: 'Ngày tháng'
+        total_price__number:
+          label: Tổng
+        state:
+          label: Bang
+  order_page:
+    display_title: 'Người tạo đơn'

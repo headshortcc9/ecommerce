@@ -18,3 +18,9 @@ function taphoanhanh_theme_suggestions_input__submit_alter(array &$suggestions, 
         $suggestions[]=$hook.'__register__submit';
     }
 }
+
+function taphoanhanh_preprocess(&$variables,$hook) {
+    $themeHandler = \Drupal::service('theme_handler');
+    $themePath = $themeHandler->getTheme($themeHandler->getDefault())->getPath();
+    $variables['base_theme_path'] = $themePath;
+}

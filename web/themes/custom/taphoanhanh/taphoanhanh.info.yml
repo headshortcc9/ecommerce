@@ -20,9 +20,7 @@ regions:
   page_top: 'Page top'
   page_bottom: 'Page bottom'
 
-# libraries-override:
-#   # Replace an entire library.
-#   bootstrap/framework: belgrade/bootstrap-scripts
+logo: 'logo.svg'
 
 libraries:
   - 'taphoanhanh/color'

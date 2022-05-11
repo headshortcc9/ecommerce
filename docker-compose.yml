@@ -1,0 +1,43 @@
+version: '3'
+services:
+  etonServerDb:
+    image: mariadb:latest
+    container_name: etonServerDb
+    environment:
+      MYSQL_DATABASE: eton
+      MYSQL_USER: drupal
+      MYSQL_PASSWORD: drupal
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./db-docker/eton:/var/lib/mysql
+      - ./db-docker/db-backups:/var/backups
+      - ./db-docker:/docker-entrypoint-initdb.d
+    networks:
+      - network_etonServer
+  etonPhpMyAdmin:
+    image: phpmyadmin
+    container_name: etonPhpMyAdmin
+    ports:
+      - "5100:80"
+    environment:
+      UPLOAD_LIMIT: 1000M
+      MYSQL_ROOT_PASSWORD: root
+      PMA_HOST: etonServerDb 
+    networks:
+      - network_etonServer
+
+  etonServerWeb:
+    container_name: etonServerWeb
+    depends_on:
+      - etonServerDb
+    image: haivokyanon/d9-php8:clamav
+    ports:
+      - "6080:80"
+      - "6443:443"
+    volumes:
+      - .:/var/www/html
+    networks:
+      - network_etonServer
+networks:
+    network_etonServer:
+        driver: bridge

@@ -67,7 +67,7 @@
 #}
 {# {{ dump(_context|keys) }} #}
 {{ dump(bill_data) }}
-{%
+{# {%
   set classes = [
     node.bundle|clean_class,
     node.isPromoted() ? 'is-promoted',
@@ -76,8 +76,8 @@
     view_mode ? view_mode|clean_class,
     'clearfix',
   ]
-%}
-<article{{ attributes.addClass(classes) }}>
+%} #}
+{# <article{{ attributes.addClass(classes) }}>
 
   {{ title_prefix }}
   {% if label and not page %}
@@ -101,4 +101,29 @@
     {{ content }}
   </div>
 
-</article>
+</article> #}
+
+<div class='bill-section-wrapper'>
+  <h2>Your bill</h2>
+  <em>Store info</em> 
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Items</th>
+        <th scope="col">Unit</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in bill_data %}
+      <tr>
+        <td>{{ item.name }}</td>
+        <td>{{ item.unit }}</td>
+        <td>{{ item.current_qty }}</td>
+        <td>{{ item.price }}</td>
+      </tr>
+      {% endfor %}  
+    </tbody>
+  </table>
+</div>

@@ -13,7 +13,6 @@ function taphoanhanh_theme_suggestions_form_alter(array &$suggestions, array $va
   }
 
 function taphoanhanh_theme_suggestions_input__submit_alter(array &$suggestions, array $variables, $hook) {
-    dd($variables['element']);
     if($variables['element']['#id'] === 'edit-submit'){
         $suggestions[]=$hook.'__register__submit';
     }
@@ -31,6 +30,7 @@ function taphoanhanh_preprocess_node(&$variables) {
         $data = $variables['node']->get('body')->value;
         $data = strip_tags($data);
         $data_json = json_decode($data);
-        $variables['bill_data'] = $data_json[0];
+        //dump($data_json);
+        $variables['bill_data'] = $data_json;
     }
 }
